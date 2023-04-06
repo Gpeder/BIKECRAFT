@@ -3,6 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1,
+h2,
+h3,
 p,
 ul {
   margin: 0px;
@@ -10,6 +12,9 @@ ul {
 img {
   max-width: 100%;
   display: block;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
 ul {
   padding: 0px;

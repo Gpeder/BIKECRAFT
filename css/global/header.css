@@ -2,16 +2,13 @@
   background: var(--cor-12);
 }
 .header {
-  max-width: 1200px;
-  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .header_menu {
   display: flex;
@@ -22,10 +19,6 @@
   display: inline-block;
   position: relative;
   padding: 16px 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  color: var(--cor-0);
-  font-size: 18px;
 }
 .header_menu a::after {
   display: block;
