@@ -6,9 +6,11 @@ h1,
 h2,
 h3,
 p,
-ul {
+ul,
+blockquote {
   margin: 0px;
 }
+
 img {
   max-width: 100%;
   display: block;
