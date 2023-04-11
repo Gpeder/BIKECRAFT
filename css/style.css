@@ -2,17 +2,24 @@
 @import "./global/reset.css";
 @import "./global/header.css";
 @import "./global/footer.css";
+
 /* componentes gerais */
 @import "./utilidades/color.css";
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
+
 /* parte da home do site */
 @import "./home/main.css";
 @import "./bicicletas/bicicletas_lista.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+
 /* parte de bicicletas do site */
 @import "./bicicletas/bicicletas_lista.css";
+
 /* parte de seguros */
 @import "./seguros/seguros.css";
+
+/* termos */
+@import "./termos/termos.css";
