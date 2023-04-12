@@ -16,6 +16,7 @@
 @import "./home/depoimento.css";
 
 /* parte de bicicletas do site */
+@import "./bicicletas/bicicletas.css";
 @import "./bicicletas/bicicletas_lista.css";
 
 /* parte de seguros */
