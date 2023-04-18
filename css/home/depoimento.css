@@ -11,6 +11,8 @@
   object-fit: cover;
 }
 .depoimento_conteudo {
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
+    right 40px;
   padding: 40px 40px 80px 80px;
   align-self: end;
 }
@@ -37,6 +39,11 @@
   color: var(--cor-p2);
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 500px;
+  }
+}
 @media (max-width: 800px) {
   .depoimento {
     grid-template-columns: 1fr;

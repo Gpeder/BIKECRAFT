@@ -9,6 +9,7 @@
 
   <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
 
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +27,7 @@
         <ul class="header_menu cor-0 font-1-m">
           <li><a href="./bicicletas.html">BICICLETAS</a></li>
           <li><a href="./seguros.html">SEGUROS</a></li>
-          <li><a href="#">CONTATO</a></li>
+          <li><a href="./contato.html">CONTATO</a></li>
         </ul>
       </nav>
     </div>
@@ -39,9 +40,10 @@
         <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="botao" href="./bicicletas.html">ESCOLHA A SUA</a>
       </div>
-      <div>
-        <img src="./img/fotos/introducao.jpg" alt="">
-      </div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+        <img src="./img/fotos/introducao.jpg" alt="Bicicleta preta" width="640" height="800">
+      </picture>
     </div>
   </main>
 
@@ -167,7 +169,7 @@
           <li><a href="tel:+553599999999">+55 35 9999-9999</a></li>
           <li><a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a></li>
           <li>Rua Ali Pertinho, 53 - centro</li>
-          <li>Minas Gerais - MG</li>
+          <li>Rio de Janeiro - RJ</li>
         </ul>
         <div class="footer_social">
           <a href="./">
